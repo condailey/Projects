@@ -1,0 +1,238 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    font-family: 'Heebo', sans-serif;
+    font-size: 90%;
+    color:white;
+    font-size: 100px;
+}
+
+.phone-icon{
+    font-size: 30px;
+}
+
+::placeholder{
+    color:rgb(177, 177, 177);
+    font-size: 15px;
+}
+
+.card{
+    position:relative;
+    width:500px;
+    height:350px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+}
+
+.card:hover{
+    width:800px;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition-delay: 0s;
+}
+
+.header{
+    font-size:50px;
+}
+
+.card .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .circle::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--clr);
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+
+}
+.card:hover .circle::before{
+    clip-path: circle(450px at center);
+}
+
+.currentColor{
+    position:relative;
+    right: calc(53px/2);
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+
+}
+.card .circle .icon{
+
+    position:relative;
+    width: 125px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+
+.card:hover .circle .icon{
+    transform: scale(0);
+    transition-delay: 0s;
+}
+
+.content{
+    font-size: 75%;
+    position:relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 40px 40px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: none;
+    margin-left: 30px;
+}
+.card:hover .content{
+    left:0;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.content h2{
+    font-size:50px;
+    margin-top:-10px;
+    margin-bottom: -3px;
+    
+}
+
+.card .search{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+.card:hover .search{
+    left: 72%;
+    transform: translate(-50%, -50%) scale(1);
+    transition-delay:0.5s;
+}
+input.search-bar{
+    border: none;
+    outline:none;
+    padding:0.5em 0.5em;
+    border-radius: 24px;
+    background: #0000002b;
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+    width:125px;
+}
+button{
+    margin:0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+    outline:none;
+    background: #0000002b;
+    color:white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(18, 18, 174);
+}
+
+.content:hover .loading{
+    visibility: hidden;
+}
+
+.content:hover .loading:after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+}
+
+@media (max-width: 991px){
+   
+    .card{
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+    }
+
+    .card:hover{
+        height:400px;
+
+    }
+    ::placeholder{
+        font-size: 10px;
+    }
+
+    .content{
+        margin-top: 50px;
+    }
+
+    .content .phone-icon{
+        font-size: 20px;
+    }
+
+    .content h2{
+        font-size: 30px;
+    }
+
+    .card:hover .search{
+        top: initial;
+        bottom:30px;
+        left:50%;
+        transform:translate(-50%, -0%) scale(1);
+    }
+
+    .card .content{
+        width:100%;
+        left: 0;
+        padding: 40px;
+    }
+
+    .card:hover .content .h2{
+        font-size: 20px;
+    }
+
+    input.search-bar{
+        border: none;
+        outline:none;
+        padding:0.5em 0.5em;
+        border-radius: 24px;
+        background: #0000002b;
+        color: white;
+        font-family: inherit;
+        font-size: 20px;
+        width:80px;
+        margin-bottom: 30px;
+    }
+    .content:hover .loading{
+        visibility: hidden;
+    }
+}
