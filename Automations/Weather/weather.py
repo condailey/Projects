@@ -2,7 +2,7 @@
 
 import requests
 
-API_KEY = ""
+API_KEY = "#insert API Key here#"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 city = input("Enter city name: ").lower()
