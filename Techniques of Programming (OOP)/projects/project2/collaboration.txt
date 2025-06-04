@@ -1,0 +1,16 @@
+Discussion Log
+Assignment: Project 2a
+Name: Connor Dailey
+
+9/29    5 min       https://www.baeldung.com/java-system-exit
+        A helpful website refreshing my memory of the format 
+        system.exit
+
+9/29    5 min       https://www.w3schools.com/java/java_break.asp
+        A website that differentiated continue and break when 
+        I was debating wheter or not to implement it in my program.
+
+9/29    5 min       https://exlskills.com/learn-en/courses/introduction-to-java-intro_to_java/    arrays-ZldoEizDoOVH/one-dimensional-arrays-bfcrgmRCZKiH/iterating-through-1d-array-gVkWZuYgUSDK
+        A website that was very helpful in showing me how to make
+        an infinite loop that was quintessential to my program's 
+        functionality.

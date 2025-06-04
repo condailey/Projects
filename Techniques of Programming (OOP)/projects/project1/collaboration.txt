@@ -1,0 +1,23 @@
+Discussion Log
+Assignment: Project 1(Flight Calculator)
+Name: Connor Dailey
+
+9/9/2021    5-10 minutes    https://www.w3schools.com/java/java_conditions.asp
+            Read this helpful webpage for a better understanding and review of 
+            conditions and if statements
+
+9/9/2021    >5 minutes      https://stackoverflow.com/questions/8825209/rounding-decimal-points
+            Read this helpful webpage to teach myself how to round off the answer
+            for distance as seen in the program to the hundredths place.
+    
+9/9-12/2021 25 minutes      https://stackoverflow.com/questions/662421/no-x11-display-variable-what-does-it-mean
+                            https://stackoverflow.com/questions/5218870/getting-a-headlessexception-no-x11-display-variable-was-set
+                            https://community.hpe.com/t5/General/Can-t-connect-to-X11-window-server-using-localhost-0-0-lt-lt-lt/td-p/4218005#.YT-NsZ5uf9F
+            Read these helpful webpages that explained to me that I wasn't able to 
+            view the picture window because I was testing the program remotely 
+            and not in the computer lab where it displays properly. Tried resolving
+            the issue initially by attempting to view it from my laptop but confirmed
+            my suspicions when testing my program in the lab.
+
+N/A         0 minutes       Classmate discussions
+            There were no classmate discussions that took place regarding the completion of my program or assistance in said program.

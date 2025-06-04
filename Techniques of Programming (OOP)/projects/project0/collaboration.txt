@@ -1,0 +1,7 @@
+Collaboration Log
+Assignment: Project 0 (line art)
+Name: Connor Dailey
+
+9/2/2021	Less than 5 min	https://www.w3resource.com/java-exercises/basic/java-basic-exercise-1.php
+		Looked at some unhelpful code to attempt to solve a problem that was actually available in a previous example.
+		No discussion took place among my peers.

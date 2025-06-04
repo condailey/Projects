@@ -1,0 +1,9 @@
+Discussion Log
+Assignment: Project 3 (Huffman)
+Name: Connor Dailey
+
+11/4/2021   10 min  Consulted Prof. Walsh for help and torubleshooting 
+my program.
+
+11/5/2021   10 min  Consulted Prof. Walsh for help and troubleshooting 
+my program.

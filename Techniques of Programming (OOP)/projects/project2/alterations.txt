@@ -1,0 +1,7 @@
+grayscale
+sepia
+censor 100 30 200 60
+sharpen
+show
+save after.jpg
+quit
