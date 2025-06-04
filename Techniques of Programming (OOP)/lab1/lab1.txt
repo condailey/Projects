@@ -1,0 +1,21 @@
+Name: Connor Dailey [ just kidding, put your name here instead ]
+Email: cddail25@g.holycross.edu [ put your HC email, obviously ]
+Assignment: CSCI 131, Lab 1
+Lab Partners: [ just list the people you worked with for this lab ]
+
+Question 1: Alan Turing [ your responses go here ]
+Question 2: James Gosling
+Question 3: Barbara Liskov
+Question 4: Rev. McFarland
+Question 5: "Hello, World!"
+Question 6: The reason because the program is only printing two lines of code is because of difference between system.out.print and system.out.println. It appears that the second line of the four is where the user input is manipulated and thus processed in the program. The third line of the program experiences no change is remains constant and prints out on the first line or ln. The fourth line, like the third, is constant and doesn't change with a given input. Since the "ln" for the fourth line is preceded by the standard "system.out.print" it tells the computer to go to the next line in order to print in the terminal.
+Question 7: cd ~/labs/lab1
+	    ls
+	    rm Hello.class
+	    rm Greeting.class
+
+Question 8: cd 
+	    mkdir ~/examples
+	    mv examples ~/Desktop
+	    cp Greeting.java ~/examples
+	    cp Hello.java ~/examples

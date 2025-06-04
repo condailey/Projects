@@ -1,0 +1,24 @@
+Connor Dailey
+10/28/2021
+
+Question 1: The best function for calculating the average quiz grade for the semester would be "mean." 
+double [] grades = {50, 100, 85, 90};
+        double quizAvg = StdStats.mean(grades);
+        StdOut.println("You earned " + quizAvg + " semester quiz average.");
+
+Question 2: 
+double bestEarlyQuiz = StdStats.max(grades, 0, 2);
+        double bestLaterQuiz = StdStats.max(grades, 2, 3);
+        if (bestLaterQuiz > bestEarlyQuiz){
+            StdOut.println("Congrats! You imporved!");
+        }
+The array's length is 4. 0, 1, 2, and 3.
+
+Question 3: For graph a, the function "plotPoints" would be used. For graph b, the function "plotBars" would be used. Finally, for graph c the function "plotLines" would be used.
+
+Question 4: The data type returned from the SongTime.toSeconds function is "int" for integer.
+
+Question 5: The actual value expected to be returned from calling SongTime.toSeconds("2:15:) is 135 seconds.
+
+Question 6: The data type and actual value I would expect to be returned would be a string since the firstmost function called is "SongTime.toMMSS." 
+

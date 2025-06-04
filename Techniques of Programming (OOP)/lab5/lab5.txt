@@ -1,0 +1,7 @@
+Question 1: The data input expected in this program are integers.
+Question 2: An error arises saying "exception in thread "main" java.until.InputMismatchException."
+Question 3: The maximum number of grades this program is designed to accept is 20. The specific line of code in ArrayWarmup that fails is line 33 with "grades[numGrades] = x;
+Question 4: The user should type a negative number in order for the program to continue past reading user input.
+Question 5: The non-integer argument values will cause the program to crash. This is because the expected type of the variable entered should be an integer and thus when it is met with a non-integer the program at line 27, where the integer variable is defined, will crash with a InputMismatchException.
+Question 6: The printed average for 0 is NaN. The printed average for a negative number is -0.0. The reason NaN is printed, which means not a number, is because dividing by 0 is undefined. The reason why -0.0 is printed for a negative number is because when a negative number is entered the program stops and follows the rest of the program without the needed numbers to produce arithmetic which leaves the program with 0 as the sum divided by the negative number which would result in -0.0.
+Question 7: It is not initialized at 0, rather at 1, because then grades[0] > max would be comparing the same values. If it still started with 0 it would produce the same results but eventually run into a problem when grades[i] = max.

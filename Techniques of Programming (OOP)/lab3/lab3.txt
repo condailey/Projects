@@ -1,0 +1,12 @@
+Question 1: In the equation of n = (int)(1 + Math.random() * 5), n can never equal zero because the result of the equation will always be positive in all of its parts and therefore not providing an opprotunity to print zero. That, in turn, will never print the example of A Snake.
+
+Question 2: The highest possible random number will be 0.99, then that being multiplied by 5 would come out to 4.95, then adding 1 to that number will result in "5.95" but since there is an 'int' at the beginning of the equation, it will round the number down and ultimately give a highest possible number of 5.
+
+Question 3: Orthoptera
+
+Question 4: On line 20 of Taxonomy.java, wings = StdIn.readInt();, the variable wings is defined by taking the integer provided by the user by use of StdIn.readInt();
+
+Question 5: Hemiptera is found either by way of selecting 2 pairs of wings or 0. For 0 pairs, if you select soft body with protective shield then it will be given immediately. For 2 pairs of wings, it will ask if it has leathery wings, once you input no then it will ask for biting, piercing, or sucking; out of those last three listed piercing or sucking.
+The final way of finding the Hemiptera order is through selecting the one pair of wings option, then you are prompted with the selection of body shape. You can either input T for long antennae or t for short antannae. T is the way to print the Hemiptera due to its long antannae.
+
+Question 6: When removing the case for the lowercase 't' I found that action made a lower case 't' as an input an invalid response, leaving the program to printing "Sorry, the insect can't be classified." So, the ultimate purpose of having both case instances present is to allow for both scenarios to function properly.

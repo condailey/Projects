@@ -1,0 +1,3 @@
+I clarified a step for the for loop procedure with Dan who 
+sat diagonal from me. I didn't speak to any other of my peers
+for the duration of the lab.

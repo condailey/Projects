@@ -1,0 +1,53 @@
+Name: Connor Dailey
+Email: cddail25@g.holycross.edu
+Assignment: CSCI 131, Lab 2
+Lab Partners: 
+
+Question 1:The output is predictable due to the nature of multiplying anything by "0", in doing so, we only have to add "5" to zero which results in "5".
+Question 2:The smallest possible outcome of this command would be 2.5 presupposing that the random number is zero followed by the factor, which doesn't particularly matter considering anything multiplied by zero is zero, and then when you multiply zero followed by 2.5 it becomes 2.5 as the final smallest answer possible.
+The largest possible outcome would be 0.99 times 10, which is 9.9 plus 2.5 which results in the final answer being 12.4.
+Question 3:
+    1) public class test{
+    public static void main(String args[]) {
+       String username = args[0];
+       double a = 2;
+       double b = 2;
+       double answer = Math.sqrt(a + b);
+       System.out.println("Hello " + username + ", " + "The result of the square root of a and b's sum is " + answer);
+
+    }
+}
+    2) public class test{
+    public static void main(String args[]) {
+       
+       String username = args[0];
+
+       double a = 2;
+       double b = 2;
+       double answerA = Math.sqrt(a);
+       double answerB = Math.sqrt(b);
+       double answerAB = answerA + answerB;
+       
+       System.out.println("Hello " + username + " the sum of the square root of a and b is " + answerAB);
+
+    }
+}
+    3) public class test{
+    public static void main(String args[]) {
+       
+       String username = args[0];
+
+       double a = 2;
+       double b = 2;
+       double answer = Math.sqrt(a + b);
+       double answerA = Math.sqrt(a);
+       double answerB = Math.sqrt(b);
+       double answerAB = answerA + answerB;
+       double differenceAnswer = (answerAB - answer);
+
+       System.out.println("Hello " + username + ", " + "The result of the square root of a and b's sum is " + answer);
+       System.out.println("Howdy " + username + " the sum of the square roots of a and b is " + answerAB);
+       System.out.println("Hey " + username + " the difference between the last two answers is " + differenceAnswer);
+
+    }
+}
