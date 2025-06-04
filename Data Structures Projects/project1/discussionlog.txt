@@ -1,0 +1,8 @@
+discussionlog.txt
+Connor Dailey
+2-9-2022
+Homework 1
+
+I had help from Rob and Tom in specification for the 
+implementation of the methods. 30 minutes with Tom, 10 minutes
+with Rob.

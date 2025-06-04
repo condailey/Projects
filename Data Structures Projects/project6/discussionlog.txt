@@ -1,0 +1,5 @@
+discussionlog.txt
+
+3/28/2022
+I discussed the project with Dennis and assisted him on some of his function calls and the conditions. ~ 5-10 minutes.
+Daniel McElroy helped me with implementing the backtracking removal of yellow spaces with blank one. ~1-2 minutes.

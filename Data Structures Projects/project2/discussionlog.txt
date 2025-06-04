@@ -1,0 +1,8 @@
+discussionlog.txt
+Name: Connor Dailey
+Date: 2/16/2022
+Class: CSCI132
+email: cddail
+
+Around 1-2 hours total    I had several conversations with classmates including Tom, Colin, Dan, Alex, Mikas, Joe and Diego in figuring 
+out implementation of methods and loops for wordpop.

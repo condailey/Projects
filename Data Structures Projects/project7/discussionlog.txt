@@ -1,0 +1,4 @@
+discussionlog.txt
+hours and hours and hours - I collaborated with Dan, Colin, Tom, Diego, Rob, and Mikas. I also consulted a website to reference the implementation of ternarySearch to
+help me clarify my method.
+5 minutes - https://www.geeksforgeeks.org/ternary-search/

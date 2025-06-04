@@ -1,0 +1,4 @@
+discussionlog.txt
+Name: Connor Dailey
+Date: 5/4/2022
+Discussed project with Colin and Dan for 4 hours. Dan helped with the implementation of prime ministers and ancestry and Colin helped with prime ministers.
